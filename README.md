@@ -1,0 +1,1 @@
+# Ekap-Kurum-Sorgu
