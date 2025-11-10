@@ -1,8 +1,8 @@
 # 🔎 [EKS] EKAP Kurum Sorgu Aracı
 
-Bu Python tabanlı masaüstü uygulaması, Elektronik Kamu Alımları Platformu (EKAP) üzerinde, girilen Kurum ID ve Yıl bilgisine göre ilgili kurumun adını hızlıca sorgulayan otomatik bir araçtır.
+Bu Python tabanlı masaüstü uygulaması, Elektronik Kamu Alımları Platformu (EKAP) üzerinde, girilen Kurum ID ve Yıl bilgisine göre ilgili kurumu hızlıca sorgulayan otomatik bir araçtır.
 
-Selenium otomasyonu sayesinde EKAP'ın resmi arama sayfasını arka planda (headless) ziyaret ederek verileri çeker ve kullanıcı dostu bir arayüzde sunar.
+Selenium otomasyonu sayesinde EKAP'ın resmi arama sayfasını arka planda (headless değil bot algılama olasılığından dolayı 'headless' kullanmadım) ziyaret ederek verileri çeker ve kullanıcı dostu bir arayüzde sunar.
 
 ✨ Özellikler
 
@@ -10,7 +10,7 @@ Hızlı ve Otomatik Sorgulama: Seçilen Yıl (2022-2025) ve Kurum ID'ye göre EK
 
 Modern Arayüz: Customtkinter ile oluşturulmuş şık ve kullanımı kolay masaüstü uygulaması.
 
-Gizli Çalışma: Selenium, Chrome tarayıcısını görünmez modda (headless) çalıştırarak kullanıcı deneyimini kesintiye uğratmaz.
+Gizli Çalışma: Selenium, Chrome tarayıcısını görünmez modda çalıştırarak kullanıcı deneyimini kesintiye uğratmaz.
 
 Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajını doğrudan kullanıcıya iletir.
 
