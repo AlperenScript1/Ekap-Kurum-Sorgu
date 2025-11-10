@@ -33,9 +33,18 @@ Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajı
 🖥️ Kullanım
 
 Açılan arayüzde:
+<img width="500" height="412" alt="image" src="https://github.com/user-attachments/assets/59e9e10c-0441-44a5-9e38-b23ce5fe56a2" />
+
 
 Sorgulama yapmak istediğiniz Yılı seçin.
+<img width="178" height="197" alt="image" src="https://github.com/user-attachments/assets/fc270c96-4561-479d-89e2-b73a1026c056" />
+
 
 Sorgulamak istediğiniz Kurum ID'yi (DT No) girin.
+<img width="190" height="128" alt="image" src="https://github.com/user-attachments/assets/44e24d91-fe17-483e-80f4-e6e137acf0a6" />
+
 
 "Sorgula" butonuna tıklayın. Sonuç, saniyeler içinde arayüzde görüntülenecektir.
+<img width="386" height="285" alt="image" src="https://github.com/user-attachments/assets/bb8b9d4b-a3ed-45ea-915e-04b25321fa7a" />
+
+
