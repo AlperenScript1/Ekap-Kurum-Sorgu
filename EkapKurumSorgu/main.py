@@ -71,7 +71,7 @@ def basla():
             elements = wait.until(EC.presence_of_all_elements_located(toast_locator))
             if elements:
                 print("Alert:", elements[0].get_attribute("innerText"))
-                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı.", text_color="#FF0000")
+                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı. \n" + "["+ str(kurumID) + "]", text_color="#FF0000")
         except:
             print("Hiç alert bulunamadı.")
             driver.find_element(By.CSS_SELECTOR, ".fa.fa-th").click()
@@ -88,7 +88,7 @@ def basla():
 def callback(url):
     webbrowser.open_new(url)
 
-byDev = ctk.CTkLabel(app, text="//A (GitHub)", text_color="#0090C0")
+byDev = ctk.CTkLabel(app, text="//Alperen (GitHub)", text_color="#0090C0")
 byDev.pack(side="bottom", pady=1)
 byDev.bind("<Button-1>", lambda e: callback("https://github.com/AlperenScript1"))
 
