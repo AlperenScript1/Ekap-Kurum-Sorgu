@@ -78,13 +78,14 @@ def sorgula():
             elements = wait.until(EC.presence_of_all_elements_located(toast_locator))
             if elements:
                 print("Alert:", elements[0].get_attribute("innerText"))
-                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı. \n" + "["+ str(kurumID) + "]", text_color="red")
+                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı. \n" + "ID: " + "["+ str(kurumID) + "]\n" + "Yıl: " + str(yil), text_color="red")
         except:
             print("Hiç alert bulunamadı.")
             driver.find_element(By.CSS_SELECTOR, ".fa.fa-th").click()
             kurum = driver.find_element(By.CSS_SELECTOR, ".idareIl.ng-binding").get_attribute("innerHTML")
             print("Kurum:", kurum)
-            kurum_label.configure(text="Kurumu: " + str(kurum), text_color="white")
+            kurum_label.configure(text="Kurumu: " + str(kurum)  + "\n ID: " + "["+ str(kurumID) + "]\n" + "Yıl: " + str(yil), text_color="white")
+            
 
     except Exception as e:
         print("Hata:", e)
