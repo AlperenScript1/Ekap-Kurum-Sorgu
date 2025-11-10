@@ -15,9 +15,10 @@ ctk.set_default_color_theme("green")
 
 app = ctk.CTk()
 app.title("[EKS] EKAP_Kurum_Sorgu ")
-center_window(app, 600, 400)
+app.resizable(False,False)
+center_window(app, 500, 380)
 
-#! -------------------- UI -------------------- #
+#! --------------------_UI_-------------------- #FE
 yil_label = ctk.CTkLabel(app, text="Yıl:")
 yil_label.pack(pady=(20,5))
 yil_var = ctk.StringVar(value="25")
@@ -30,10 +31,16 @@ id_entry = ctk.CTkEntry(app)
 id_entry.pack(pady=(0,10))
 
 
-#! -------------------- SELENİUM -------------------- #
-def basla():
+
+#! --------------------_SELENİUM_-------------------- #BE
+def sorgula():
     yil = yil_var.get()
     kurumID = id_entry.get()
+
+    if kurumID == "":
+       kurum_label.configure(text="ID kısmı boş bırakılamaz", text_color="red")
+       return("Null")
+    
 
     chromedriver_autoinstaller.install()
     options = Options()
@@ -71,7 +78,7 @@ def basla():
             elements = wait.until(EC.presence_of_all_elements_located(toast_locator))
             if elements:
                 print("Alert:", elements[0].get_attribute("innerText"))
-                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı. \n" + "["+ str(kurumID) + "]", text_color="#FF0000")
+                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı. \n" + "["+ str(kurumID) + "]", text_color="red")
         except:
             print("Hiç alert bulunamadı.")
             driver.find_element(By.CSS_SELECTOR, ".fa.fa-th").click()
@@ -81,7 +88,7 @@ def basla():
 
     except Exception as e:
         print("Hata:", e)
-
+    
     driver.quit()
 
 
@@ -92,10 +99,10 @@ byDev = ctk.CTkLabel(app, text="//Alperen (GitHub)", text_color="#0090C0")
 byDev.pack(side="bottom", pady=1)
 byDev.bind("<Button-1>", lambda e: callback("https://github.com/AlperenScript1"))
 
-start_button = ctk.CTkButton(app, text="Başlat", command=basla)
-start_button.pack(pady=20)
+start_button = ctk.CTkButton(app, text="Sorgula", command=sorgula)
+start_button.pack(pady=1)
 
 kurum_label = ctk.CTkLabel(app, text="Kurumu: ")
-kurum_label.pack(side="bottom", pady=20)
+kurum_label.pack(side="bottom", pady=1)
 
 app.mainloop()
