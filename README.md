@@ -25,7 +25,7 @@ pip install customtkinter selenium chromedriver-autoinstaller
 
 Uygulamayı indirdiğiniz dizinde terminali açın ve çalıştırın:
 
-python main.py
+'''python main.py'''
 
 
 Açılan arayüzde:
