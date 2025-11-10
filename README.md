@@ -15,18 +15,9 @@ Gizli Çalışma: Selenium, Chrome tarayıcısını görünmez modda çalıştı
 Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajını doğrudan kullanıcıya iletir.
 
 🚀 Kurulum
-
-Uygulamayı çalıştırmadan önce Python'ın kurulu olduğundan emin olun. Ardından gerekli tüm kütüphaneleri (customtkinter, selenium, chromedriver-autoinstaller) tek bir komutla kurabilirsiniz:
-
-pip install customtkinter selenium chromedriver-autoinstaller
-
+  .exe
 
 🖥️ Kullanım
-
-Uygulamayı indirdiğiniz dizinde terminali açın ve çalıştırın:
-
-'''python main.py'''
-
 
 Açılan arayüzde:
 
