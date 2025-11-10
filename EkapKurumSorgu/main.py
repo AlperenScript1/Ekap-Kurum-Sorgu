@@ -71,13 +71,13 @@ def basla():
             elements = wait.until(EC.presence_of_all_elements_located(toast_locator))
             if elements:
                 print("Alert:", elements[0].get_attribute("innerText"))
+                kurum_label.configure(text="EKAP Sistem Mesajı: " + "Aradığınız kriterlere uygun kayıt bulunamadı.", text_color="#FF0000")
         except:
             print("Hiç alert bulunamadı.")
             driver.find_element(By.CSS_SELECTOR, ".fa.fa-th").click()
             kurum = driver.find_element(By.CSS_SELECTOR, ".idareIl.ng-binding").get_attribute("innerHTML")
             print("Kurum:", kurum)
-            # Label'ı güncelle
-            kurum_label.configure(text="Kurumu: " + str(kurum))
+            kurum_label.configure(text="Kurumu: " + str(kurum), text_color="white")
 
     except Exception as e:
         print("Hata:", e)
