@@ -53,7 +53,8 @@ Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajı
 Açılan arayüzde:
 
 
-<img width="500" height="412" alt="image" src="https://github.com/user-attachments/assets/59e9e10c-0441-44a5-9e38-b23ce5fe56a2" />
+<img width="496" height="408" alt="image" src="https://github.com/user-attachments/assets/61c95488-3ade-4151-a879-891d4da26986" />
+
 
 
 Sorgulama yapmak istediğiniz Yılı seçin.
@@ -65,12 +66,19 @@ Sorgulama yapmak istediğiniz Yılı seçin.
 Sorgulamak istediğiniz Kurum ID'yi (DT No) girin.
 
 
-<img width="190" height="128" alt="image" src="https://github.com/user-attachments/assets/44e24d91-fe17-483e-80f4-e6e137acf0a6" />
+<img width="202" height="169" alt="image" src="https://github.com/user-attachments/assets/7854e899-26f9-48c5-ad92-97ff027d5e23" />
 
 
-"Sorgula" butonuna tıklayın. Sonuç, saniyeler içinde arayüzde görüntülenecektir.
+
+"Sorgula" butonuna tıklayın. Sonuç, bulunduktan sonra arayüzde görüntülenecektir.
 
 
-<img width="386" height="285" alt="image" src="https://github.com/user-attachments/assets/bb8b9d4b-a3ed-45ea-915e-04b25321fa7a" />
+<img width="497" height="285" alt="image" src="https://github.com/user-attachments/assets/93b25264-a2da-4680-bd73-6084883af98e" />
+
+Ayrıca 'Nasıl kullanılır ?' butonuna basarsanız uygulmayı nasıl kullanacağınız hakkında yönlendirmeler gösterilir. Daha fazla bilgi almak isterseniz eğer GitHub sayfasına yönelebilirsini.
+
+<img width="397" height="323" alt="image" src="https://github.com/user-attachments/assets/f61018c9-26d3-4ae5-a3bc-b4d2cecf9ac2" />
+
+
 
 
