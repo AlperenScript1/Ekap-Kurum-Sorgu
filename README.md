@@ -4,6 +4,14 @@ Bu Python tabanlı masaüstü uygulaması, Elektronik Kamu Alımları Platformu 
 
 Selenium otomasyonu sayesinde EKAP'ın resmi arama sayfasını arka planda (headless değil bot algılama olasılığından dolayı 'headless' kullanmadım) ziyaret ederek verileri çeker ve kullanıcı dostu bir arayüzde sunar.
 
+📝 Yeni [v1.2] Güncellemeler:
+
+- Artık id'leri 25DT1111111 olarak yazabilirsiniz  EKS 25DT kısmını otomatik şekilde silecek ve sorunsuz arama yapabilecektir.
+
+- 'Nasıl kullanılır ?' menüsünden uygulamayı nasıl kullanacağınız basit bir şekilde belirtilmiştir. Ayrıca daha fazla detay için GitHub linki mevcuttur.
+
+- UI kısmında bir kaç iyileştirme ve yeni uyarılar eklenmiştir bu sayede kullanıcıları daha iyi bir şekilde bilgilendirmektedir.
+
 ✨ Özellikler
 
 Hızlı ve Otomatik Sorgulama: Seçilen Yıl (2022-2025) ve Kurum ID'ye göre EKAP'ta otomatik arama.
@@ -14,13 +22,6 @@ Gizli Çalışma: Selenium, Chrome tarayıcısını görünmez modda çalıştı
 
 Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajını doğrudan kullanıcıya iletir.
 
-📝 Yeni [v1.2] Güncellemeler:
-
-- Artık id'leri 25DT1111111 olarak yazabilirsiniz  EKS 25DT kısmını otomatik şekilde silecek ve sorunsuz arama yapabilecektir.
-
-- 'Nasıl kullanılır ?' menüsünden uygulamayı nasıl kullanacağınız basit bir şekilde belirtilmiştir. Ayrıca daha fazla detay için GitHub linki mevcuttur.
-
-- UI kısmında bir kaç iyileştirme ve yeni uyarılar eklenmiştir bu sayede kullanıcıları daha iyi bir şekilde bilgilendirmektedir.
 
 
 🚀 Kurulum
