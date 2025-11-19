@@ -16,7 +16,7 @@ Selenium otomasyonu sayesinde EKAP'ın resmi arama sayfasını arka planda (head
 
 ✨ Özellikler
 
-Hızlı ve Otomatik Sorgulama: Seçilen Yıl (2022-2025) ve Kurum ID'ye göre EKAP'ta otomatik arama.
+Hızlı ve Otomatik Sorgulama: Seçilen Yıl (2022-2025) ve İhale ID'ye göre EKAP'ta otomatik arama.
 
 Modern Arayüz: Customtkinter ile oluşturulmuş şık ve kullanımı kolay masaüstü uygulaması.
 
@@ -70,7 +70,7 @@ Sorgulamak istediğiniz Kurum ID'yi (DT No) girin.
 
 
 
-"Sorgula" butonuna tıklayın. Sonuç, bulunduktan sonra arayüzde görüntülenecektir.
+'Sorgula' butonuna tıklayın. Sonuç, bulunduktan sonra arayüzde görüntülenecektir.
 
 
 <img width="497" height="285" alt="image" src="https://github.com/user-attachments/assets/93b25264-a2da-4680-bd73-6084883af98e" />
