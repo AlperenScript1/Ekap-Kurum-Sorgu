@@ -14,6 +14,15 @@ Gizli Çalışma: Selenium, Chrome tarayıcısını görünmez modda çalıştı
 
 Hata Yönetimi: Geçersiz veya kayıt bulunamayan durumlarda EKAP sistem mesajını doğrudan kullanıcıya iletir.
 
+📝 Yeni [v1.2] Güncellemeler:
+
+- Artık id'leri 25DT1111111 olarak yazabilirsiniz  EKS 25DT kısmını otomatik şekilde silecek ve sorunsuz arama yapabilecektir.
+
+- 'Nasıl kullanılır ?' menüsünden uygulamayı nasıl kullanacağınız basit bir şekilde belirtilmiştir. Ayrıca daha fazla detay için GitHub linki mevcuttur.
+
+- UI kısmında bir kaç iyileştirme ve yeni uyarılar eklenmiştir bu sayede kullanıcıları daha iyi bir şekilde bilgilendirmektedir.
+
+
 🚀 Kurulum
 1. Sayfanın sağ tarafından 'Relase' kısmına tıklayınız.
 
