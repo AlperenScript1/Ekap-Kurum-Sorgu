@@ -12,6 +12,8 @@ Selenium otomasyonu sayesinde EKAP'ın resmi arama sayfasını arka planda (head
 
 - UI kısmında bir kaç iyileştirme ve yeni uyarılar eklenmiştir bu sayede kullanıcıları daha iyi bir şekilde bilgilendirmektedir.
 
+- Performans iyileştirmeleri, artık EKS daha hızlı ve optimize çalışıyor.
+
 ✨ Özellikler
 
 Hızlı ve Otomatik Sorgulama: Seçilen Yıl (2022-2025) ve Kurum ID'ye göre EKAP'ta otomatik arama.
