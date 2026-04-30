@@ -1,3 +1,5 @@
+SON EKAP SİTESİ DEĞİŞİKLİĞİ YÜZÜNDEN UYGULAMA ÇALIŞMAMAKTADIR.
+
 # 🔎 [EKS] EKAP Kurum Sorgu Aracı
 
 Bu Python tabanlı masaüstü uygulaması, Elektronik Kamu Alımları Platformu (EKAP) üzerinde, girilen Kurum ID ve Yıl bilgisine göre ilgili kurumu hızlıca sorgulayan otomatik bir araçtır.
